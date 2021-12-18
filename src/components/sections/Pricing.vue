@@ -47,11 +47,12 @@
 							</span>
 						</div>
 					</div>
-					<button
+					<InpageLink
+						to="contacto"
 						class="text-lg px-7 py-4 border-gray-200 border-2 border font-semibold rounded-lg mx-auto w-min whitespace-nowrap"
 					>
 						Contacto
-					</button>
+					</InpageLink>
 				</div>
 				<div
 					class="rounded-2xl bg-white flex flex-col ring-4 ring-cyan-600 p-12 sm:p-16 space-y-8 sm:space-y-12 text-center"
@@ -101,11 +102,12 @@
 							</span>
 						</div>
 					</div>
-					<button
+					<InpageLink
+						to="contacto"
 						class="text-lg px-7 py-4 bg-cyan-600 text-white font-semibold rounded-lg mx-auto w-min whitespace-nowrap"
 					>
 						Contacto
-					</button>
+					</InpageLink>
 				</div>
 				<div
 					class="flex rounded-2xl bg-white ring-4 ring-gray-900/5 flex-col p-12 sm:p-16 space-y-8 sm:space-y-12 text-center"
@@ -159,11 +161,12 @@
 							</span>
 						</div>
 					</div>
-					<button
+					<InpageLink
+						to="contacto"
 						class="text-lg px-7 py-4 border-2 border font-semibold rounded-lg mx-auto w-min whitespace-nowrap"
 					>
 						Contacto
-					</button>
+					</InpageLink>
 				</div>
 			</container>
 		</section>

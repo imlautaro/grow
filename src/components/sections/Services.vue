@@ -2,16 +2,23 @@
 	<div class="bg-white">
 		<section
 			id="servicios"
-			class="container py-20 sm:py-24 text-center space-y-12 sm:space-y-16 flex flex-col justify-center"
+			class="container py-12 sm:py-24 text-center space-y-12 sm:space-y-16 flex flex-col justify-center"
 		>
-			<span class="text-3xl sm:text-4xl font-bold"
-				>Nuestros servicios</span
-			>
+			<div class="max-w-screen-sm flex flex-col space-y-4 mx-auto">
+				<span class="text-3xl sm:text-4xl font-bold"
+					>Nuestros servicios</span
+				>
+				<p class="text-gray-600 text-sm sm:text-base">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Reprehenderit eos odit facilis perspiciatis, quaerat hic
+					omnis.
+				</p>
+			</div>
 			<div
-				class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-8"
+				class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-8"
 			>
 				<div
-					class="p-8 flex flex-col space-y-4 items-center justify-center text-center"
+					class="py-0 sm:py-8 px-8 flex flex-col space-y-4 items-center justify-center text-center"
 				>
 					<StackOfPhotosIcon class="text-5xl sm:text-6xl" />
 					<span class="font-semibold text-xl sm:text-2xl">
@@ -23,7 +30,7 @@
 					</p>
 				</div>
 				<div
-					class="p-8 flex flex-col space-y-4 items-center justify-center text-center"
+					class="py-0 sm:py-8 px-8 flex flex-col space-y-4 items-center justify-center text-center"
 				>
 					<CollaborationIcon class="text-5xl sm:text-6xl" />
 					<span class="font-semibold text-xl sm:text-2xl">
@@ -35,7 +42,7 @@
 					</p>
 				</div>
 				<div
-					class="p-8 flex flex-col space-y-4 items-center justify-center text-center"
+					class="py-0 sm:py-8 px-8 flex flex-col space-y-4 items-center justify-center text-center"
 				>
 					<CameraIcon class="text-5xl sm:text-6xl" />
 					<span class="font-semibold text-xl sm:text-2xl">
@@ -47,7 +54,7 @@
 					</p>
 				</div>
 				<div
-					class="p-8 flex flex-col space-y-4 items-center justify-center text-center"
+					class="py-0 sm:py-8 px-8 flex flex-col space-y-4 items-center justify-center text-center"
 				>
 					<ComboChartIcon class="text-5xl sm:text-6xl" />
 					<span class="font-semibold text-xl sm:text-2xl">

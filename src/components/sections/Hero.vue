@@ -1,5 +1,5 @@
 <template>
-	<header class="bg-green-900 header">
+	<header class="bg-cyan-600 header">
 		<div
 			class="container h-2xl flex-col text-white text-center items-center flex justify-center"
 		>
@@ -10,12 +10,12 @@
 				<p class="text-xl sm:text-2xl">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 				</p>
-				<nuxt-link
+				<InpageLink
 					class="bg-white text-cyan-600 font-semibold w-min whitespace-nowrap mx-auto text-xl px-7 sm:px-8 py-4 sm:py-5 rounded-lg sm:rounded-xl"
-					to="/#contacto"
+					to="contacto"
 				>
 					Contacto
-				</nuxt-link>
+				</InpageLink>
 			</div>
 		</div>
 	</header>

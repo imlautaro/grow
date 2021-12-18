@@ -1,6 +1,8 @@
 import { defineConfig } from 'windicss/helpers'
+import native from 'windi-native'
 
 export default defineConfig({
+	plugins: [native],
 	theme: {
 		container: {
 			center: true,

@@ -9,7 +9,7 @@
 					>@imlautaro</a
 				></span
 			>
-			<div v-if="false" class="flex items-center space-x-4">
+			<div class="flex items-center space-x-4">
 				<span>Síguenos en</span>
 				<FacebookIcon />
 				<InstagramIcon />
